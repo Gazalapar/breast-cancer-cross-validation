@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Data (large files - keep raw GPL annotation only)
+data/raw/*
+!data/raw/GPL570_annotation.txt
+data/processed/*
+!data/processed/harmonized/common_genes.txt
+
+# Cache
+data/cache/*
